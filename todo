@@ -1,0 +1,256 @@
+# Technical Documentation Progress
+
+**Current Phase:** AS-IS Architecture Analysis  
+**Overall Status:** In Progress  
+**Last Updated:** 25 November 2026
+
+---
+
+## 01 - System Overview
+
+- [x] Application Overview
+- [x] High Level Architecture
+- [x] Application Layers
+- [x] Application Lifecycle
+- [ ] Technology Stack
+- [ ] External Dependencies
+
+## 02 - Application Architecture
+
+- [ ] Architecture Overview
+- [ ] MVVM Architecture
+- [ ] ApplicationVM
+- [ ] PublicationVM
+- [ ] BookItem
+- [ ] Book Repository
+- [ ] Document Repository
+- [ ] Data Module
+- [ ] Application State Management
+- [ ] Navigation Management
+- [ ] Dependency Management
+- [ ] Design Patterns
+
+## 03 - XML Parsing Architecture
+
+- [ ] XML Parsing Overview
+- [ ] ServicesProxy
+- [ ] Services
+- [ ] ServicesImplementation
+- [ ] XmlParserFactory
+- [ ] IXmlParser
+- [ ] XmlParserBase
+- [ ] RuleSetXmlParser
+- [ ] XmlParserEngineProvider
+- [ ] XmlParserEngine
+- [ ] XmlParsingContext
+- [ ] XML Document Resolver
+- [ ] XML Preprocessing
+- [ ] XML Fragment Processing
+- [ ] Extension Management
+- [ ] Post-Parsing Processing
+
+## 04 - Rule Engine
+
+- [ ] Rule Engine Overview
+- [ ] IXmlParserRule
+- [ ] XmlParserRuleSet
+- [ ] CompositeXmlParserRule
+- [ ] AttributedMethodXmlParserRule
+- [ ] ReflectionInvokeXmlParserRule
+- [ ] Rule Discovery Mechanism
+- [ ] Rule Selection Algorithm
+- [ ] Priority Calculation
+- [ ] Execution Effort Algorithm
+- [ ] Tie-Breaking Mechanism
+- [ ] Parameter Resolution
+- [ ] Parameter Mutation
+- [ ] Error Rule Processing
+- [ ] CommonParsingRuleSet
+- [ ] ParsingRuleSet
+
+## 05 - Document Rendering Engine
+
+- [ ] Rendering Architecture Overview
+- [ ] WPF FlowDocument
+- [ ] FlowDocumentService
+- [ ] FlowDocumentEx
+- [ ] FlowDocument Parameter Mutator
+- [ ] Formatting Service
+- [ ] AutoParagraphSection
+- [ ] Text Rendering
+- [ ] Table Rendering
+- [ ] Image and SVG Rendering
+- [ ] List Rendering
+- [ ] Hyperlink Processing
+- [ ] XPointer and Source Mapping
+- [ ] Document Numbering
+- [ ] UI Thread Synchronization
+- [ ] Screen Rendering
+- [ ] Print Rendering
+
+## 06 - Publication Standards
+
+- [ ] Publication Structure Overview
+- [ ] S1000D 2.2
+- [ ] S1000D 4.01
+- [ ] S1000D 4.1
+- [ ] MIL-STD-2361
+- [ ] DMWRS
+- [ ] Nomad
+- [ ] SindreII
+- [ ] Data Module Code
+- [ ] Publication Module
+- [ ] Table of Contents
+- [ ] Applicability
+- [ ] BREX
+- [ ] Illustrated Parts Catalog
+- [ ] Project-Specific Configurations
+
+## 07 - Search Engine and Indexing
+
+- [ ] Search Architecture Overview
+- [ ] dtSearch Integration
+- [ ] Index Creation
+- [ ] Index Configuration
+- [ ] Index Storage
+- [ ] Search Execution
+- [ ] XML Indexing
+- [ ] SVG Indexing
+- [ ] Search Result Processing
+- [ ] Search Performance
+- [ ] Search Engine Dependencies
+
+## 08 - Security and Digital Signatures
+
+- [ ] Security Architecture
+- [ ] Authentication
+- [ ] Authorization
+- [ ] Application Code Signing
+- [ ] Digital Signature Validation
+- [ ] Certificate Management
+- [ ] XML Security
+- [ ] Document Integrity
+- [ ] Data Protection
+- [ ] Dependency Security
+- [ ] Security Constraints
+
+## 09 - Configuration and Environments
+
+- [ ] Application Configuration
+- [ ] Parser Configuration
+- [ ] Project Configuration
+- [ ] User Preferences
+- [ ] Local Database
+- [ ] Network Execution
+- [ ] Offline Execution
+- [ ] Environment Dependencies
+- [ ] Supported Operating Systems
+
+## 10 - Build and Deployment
+
+- [ ] Solution Structure
+- [ ] Build Configuration
+- [ ] NuGet Dependencies
+- [ ] Build Process
+- [ ] EXE Distribution
+- [ ] MSI Installation
+- [ ] XCopy Deployment
+- [ ] Application Signing Process
+- [ ] Azure DevOps Build Pipeline
+- [ ] Azure DevOps Release Pipeline
+- [ ] Release Management
+- [ ] Version Management
+
+## 11 - Troubleshooting and Known Issues
+
+- [ ] Logging Architecture
+- [ ] Error Handling
+- [ ] Parser Validation
+- [ ] Debugging Guide
+- [ ] Known Issues
+- [ ] Root Cause Analysis
+- [ ] Help Desk Procedures
+- [ ] Frequently Asked Questions
+
+## 12 - Business and Functional Analysis
+
+- [ ] Business Requirements
+- [ ] Stakeholder Identification
+- [ ] User Roles
+- [ ] User Workflows
+- [ ] Publication Lifecycle
+- [ ] Business Rules
+- [ ] Customer-Specific Requirements
+- [ ] Functional Requirements
+- [ ] Non-Functional Requirements
+- [ ] Acceptance Criteria
+
+## 13 - Developer Onboarding
+
+- [ ] Development Environment Setup
+- [ ] Solution Setup
+- [ ] Repository Structure
+- [ ] Coding Standards
+- [ ] Git Branching Strategy
+- [ ] Pull Request Process
+- [ ] Testing Guidelines
+- [ ] Release Guidelines
+- [ ] Developer Troubleshooting
+
+## 14 - Migration Readiness
+
+- [ ] Complete AS-IS Documentation
+- [ ] Complete Business Analysis
+- [ ] Dependency Assessment
+- [ ] Platform Dependency Assessment
+- [ ] Technical Debt Assessment
+- [ ] Security Assessment
+- [ ] Performance Assessment
+- [ ] Compatibility Requirements
+- [ ] Migration Risk Assessment
+- [ ] Stakeholder Validation
+
+## 15 - Target Architecture
+
+**Status:** Pending AS-IS and Business Analysis
+
+- [ ] Architecture Requirements
+- [ ] Architecture Decision Records
+- [ ] Technology Evaluation
+- [ ] Frontend Architecture
+- [ ] Backend Architecture
+- [ ] Platform-Independent Document Model
+- [ ] Parsing Engine Design
+- [ ] Rendering Engine Design
+- [ ] Search Engine Design
+- [ ] Security Architecture
+- [ ] Deployment Architecture
+- [ ] Proof of Concept
+- [ ] Migration Roadmap
+
+---
+
+## Definition of Done
+
+A documentation item is considered complete when:
+
+- Source code has been reviewed.
+- Component responsibilities are documented.
+- Dependencies are identified.
+- Execution flows are documented.
+- Algorithms and decision logic are explained.
+- Relevant architecture or UML diagrams are added.
+- Technical risks and limitations are identified.
+- Unverified assumptions are clearly indicated.
+- The documentation is published in the Wiki.
+- The documentation is reviewed by the team.
+
+---
+
+## Current Focus
+
+Technology Stack and External Dependencies.
+
+The target architecture will be evaluated after
+the existing system architecture and business
+requirements are sufficiently understood.
